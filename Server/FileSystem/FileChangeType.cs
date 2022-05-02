@@ -1,7 +1,8 @@
 ﻿namespace Server.FileSystem
 {
-    enum FileChangeType
+    public enum FileChangeType
     {
+        NONE,
         NEW,
         DELETED,
         CHANGED,
